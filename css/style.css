@@ -1,0 +1,376 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: ;
+}
+a, a:hover{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+}
+/* Global CSS code start*/
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+.col-md-8{
+	width: 66.67%;
+	float: left;
+}
+/* Global CSS code End*/
+
+/* header-section CSS code start*/
+.header-section{
+	width: 100%;
+	float: left;
+	background: url(images/rectangle_2.png) no-repeat;
+}
+.logo{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+}
+.header-section .nav {
+	padding: 24px 0;
+	text-align: right;
+}
+.header-section .nav ul li{
+	margin-left: 25px;
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 24px;
+	color: #000;
+}
+.header-section .nav ul li a{
+	transition: 1s;
+}
+.header-section .nav ul li a:hover{
+	color: #f6f9f9;
+	padding: 10px;
+	background: #15a4fa;
+}
+/* Banner Section Start*/
+.banner-section{
+	width: 100%;
+	float: left;
+	padding: 70px 0px 40px;
+	background: url("../Images/rectangle_2.jpg") center top no-repeat;
+	background-size: cover;
+}
+
+.banner-section .banner-inner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+}
+.banner-section .banner-inner h1{
+	font-size: 80px;
+	font-weight: 850;
+	line-height: 90px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.banner-section .banner-inner .divider{
+	width: 40%;
+	height: 2px;
+	margin: 25px auto;
+	background: #15a4fa;
+}
+.banner-section .banner-inner p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.banner-section .banner-inner .btn-info{
+	padding: 15px 35px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	margin: 25px 0px;
+	border-radius: 2px;
+	transition: 1s;
+}
+.banner-section .banner-inner .btn-info:hover{
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	color: #fff;
+}
+.banner-section .banner-inner .icon{
+	width: 100%;
+	float: left;
+	padding: 60px 0px 20px;
+	margin-top: 40px;
+}
+
+/* Simple Section Start*/
+.simple-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: white;
+}
+.simple-section .simple-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.simple-section .simple-inner h1 h2{
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.simple-section .simple-inner p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+}
+
+/* feature section start*/
+.feature-section.btn-info{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.btn-info{
+	padding: 15px 35px;
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	margin: 25px  25px 0px 500px;
+	border-radius: 2px;
+	transition: 1s;
+	align-items: right;
+}
+.btn-info:hover{
+	background: #999999;
+	border: 1px solid #999999;
+	color: #fff;
+}
+.feature-section .feature-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.feature-section .feature-inner img{
+	margin-bottom: 20px;
+}
+.feature-section .feature-inner h1{
+	font-size: 22px;
+	line-height: 32px;
+	margin: 0 0 10px;
+	color: #000;
+}
+.feature-section .feature-inner p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999; 
+}
+
+/* Portfolio section start*/
+.portfolio-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url(../Images/rectangle_6.jpg) no-repeat;
+	background-size: cover;
+}
+.portfolio-section .title{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding:  0 0 50px;
+}
+.portfolio-section .title h1{
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+	margin: 500px 0 0 10px;
+	color: white;
+	text-align: center;
+}
+.portfolio-section .title p{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	color: white; 
+}
+.portfolio-section .portfolio-inner{
+	width: 100%;
+	float: left;
+	position: relative;
+	background-color: black;
+}
+.portfolio-section .portfolio-inner .port-hover{
+	width: 95%;
+	height: 97%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(25,156,235,.8);
+	display: none;
+}
+.portfolio-section .portfolio-inner .port-hover .inner-icons{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.portfolio-section .portfolio-inner:hover .port-hover{
+	display: block;
+}
+.port-hover a{
+	margin: 0 5px;
+}
+.gap{
+	margin-top: 10px;
+}
+
+/* stay with us secton*/
+.stay-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: rgb(108, 106, 106);
+	background-size: cover;
+}
+.stay-section .title .email .phone{
+	width: 100%;
+	float: left;
+	padding: 0 0 50px;
+	text-align: center;
+	color: white;
+}
+.stay-section .title .email .phone h1{
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #fff;
+	margin-bottom: 10px;	
+}
+.stay-section .title .email .phone p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: white;
+}
+.stay-section .main-form{
+	width: 55%;
+	margin: 0px auto;
+}
+.stay-section .main-form .form-group{
+	width: 100%;
+	float: left;
+	margin: 10px 0px;
+}
+.stay-section .main-form .form-group .form-control{
+	width: 95%;
+	padding: 12px;
+	background: transparent;
+	border: 2px solid #999999;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+}
+.stay-section .main-form .form-group .form-control:focus{
+	border: 2px solid #08c;
+	outline: 0;
+}
+.text-right{
+	text-align: right;
+}
+.stay-section .btn-primary{
+	padding: 10px 30px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	border-radius: 2px;
+	transition: 1s;
+}
+.stay-section .btn-primary:hover{
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	color: #fff;
+}
+.form-group span{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.social-icons{
+	display: block;
+	text-align: right;
+}
+.social-icons li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	margin-right: 5px;
+	transition: 1s;
+}
+.social-icons li a:hover{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #15a4fa;
+}
+
+/* Footer section start*/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+	
+}
+.footer-section p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+	margin-top: 5px;
+	text-align: center;
+}
